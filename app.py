@@ -40,10 +40,7 @@ lang_names = list(LANGUAGES.keys())
 # --- UI ---
 st.title("🌐 Language Translator")
 st.caption("Powered by MyMemory Translation API")
-st.warning(
-    "⚠️ Text is sent to MyMemory's translation servers. "
-    "Do not translate sensitive or personal information."
-)
+st.warning("⚠️ Do not translate sensitive or personal information.")
 
 # --- Language Selection ---
 col1, col2 = st.columns(2)
